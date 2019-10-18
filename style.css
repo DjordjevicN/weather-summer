@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.background{
+    background-image: url(./bob-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-frame{
+    background-color:rgba(0, 0, 0, 0.4);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.weather-content{
+    color: white;   
+    text-align: center;
+}
+.location{
+    padding: 20px 0;
+}
+.location h1{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.degree-section{
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    justify-content: center;
+}
+.degree-section span{
+    font-size: 30px;
+    
+}
+.temperature-degree{
+    font-size: 80px;
+}
